@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // 显示加载状态
         submitBtn.disabled = true;
-        submitBtn.textContent = '求签中 佛祖思考3-5s';
+        submitBtn.textContent = '求签中...佛祖思考5-8s';
 
         try {
             console.log('开始发送请求...');
